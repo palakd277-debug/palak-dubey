@@ -3,28 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="../assets/css/style2.css">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="login-container">
-    <h2>Login</h2>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
 
-    <form>
-      <div class="input-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" placeholder="Enter username" required>
+      <!-- Left: Login -->
+      <div class="left">
+        <a href="#" class="login-link">Login</a>
       </div>
 
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Enter password" required>
-      </div>
+      <!-- Center: Nav links -->
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-      <button type="submit">Login</button>
-    </form>
-  </div>
+    </nav>
+  </header>
 
 </body>
 </html>
+
+
